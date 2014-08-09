@@ -1,0 +1,10 @@
+module.exports = {
+  mailFrom: 'youremail@gmail.com',
+  mailTo: 'youremail@gmail.com, whateverother@email.com',
+  mailSubject: 'BTC Price Alert!',
+  service: 'gmail',
+  auth: {
+    user: 'youremail@gmail.com',
+    pass: 'password'
+  }
+};
