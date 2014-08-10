@@ -1,13 +1,14 @@
 {
   "name": "btcalert",
   "version": "0.0.1",
-  "description": "Listen to a live feed of the BTC price in USD and send an email alert when the price reaches a certain point",
+  "description": "Listen to a live feed of the BTC/LTC/DOGE price in USD and send an email alert when the price reaches a certain point",
   "main": "listen.js",
   "scripts": {},
   "author": "Robert-Wett",
   "dependencies": {
     "firebase": "1.0.19",
     "nodemailer": "1.1.1",
-    "moment": "2.8.1"
+    "moment": "2.8.1",
+    "commander": "2.3.0"
   }
 }
