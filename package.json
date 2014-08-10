@@ -1,5 +1,5 @@
 {
-  "name": "btcalert",
+  "name": "cryptoalert",
   "version": "0.0.1",
   "description": "Listen to a live feed of the BTC/LTC/DOGE price in USD and send an email alert when the price reaches a certain point",
   "main": "listen.js",
