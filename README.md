@@ -15,7 +15,8 @@ Update the `config.js` values to reflect your accounts
 > `$ vim config.js`
 
 ###Usage
-#####Note: omit the `&` if on windows..I'm not sure if this works on windows (Mac/Linux)
+<em>Note: omit the `&` if on windows....I've not tested this on windows, just Mac/Linux</em>
+
 Set an alarm to send an email if bitcoin drops below $600 USD
 > `$ node listen.js 600 &`
 
