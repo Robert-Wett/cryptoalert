@@ -2,7 +2,13 @@
 #####Listen to a live feed of the latest Bitcoin, Litecoin, or Dogecoin prices and send an email alert if the value drops below a given point in USD
 -------
 ###Setup
-Change the example config to the main config
+Clone the repo down locally
+> `$ git clone https://github.com/Robert-Wett/cryptoalert.git`
+
+Move into the new directory
+> `$ cd cryptoalert`
+
+Rename the `config.js.example` file
 > `$ mv config.js.example config.js`
 
 Update the `config.js` values to reflect your accounts
