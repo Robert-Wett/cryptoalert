@@ -31,7 +31,19 @@
           <h3>
 <a name="setup" class="anchor" href="#setup"><span class="octicon octicon-link"></span></a>Setup</h3>
 
-<p>Change the example config to the main config</p>
+<p>Clone the repo down locally</p>
+
+<blockquote>
+<p><code>$ git clone https://github.com/Robert-Wett/cryptoalert.git</code></p>
+</blockquote>
+
+<p>Move into the new directory</p>
+
+<blockquote>
+<p><code>$ cd cryptoalert</code></p>
+</blockquote>
+
+<p>Rename the <code>config.js.example</code> file</p>
 
 <blockquote>
 <p><code>$ mv config.js.example config.js</code></p>
@@ -46,22 +58,25 @@
 <h3>
 <a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h3>
 
+<h5>
+<a name="note-omit-the--if-on-windowsim-not-sure-if-this-works-on-windows-maclinux" class="anchor" href="#note-omit-the--if-on-windowsim-not-sure-if-this-works-on-windows-maclinux"><span class="octicon octicon-link"></span></a>Note: omit the <code>&amp;</code> if on windows..I'm not sure if this works on windows (Mac/Linux)</h5>
+
 <p>Set an alarm to send an email if bitcoin drops below $600 USD</p>
 
 <blockquote>
-<p><code>$ node listen.js 600</code></p>
+<p><code>$ node listen.js 600 &amp;</code></p>
 </blockquote>
 
 <p>Set an alarm to send an email if litecoin drops below $6 USD</p>
 
 <blockquote>
-<p><code>$ node listen.js -l 6</code></p>
+<p><code>$ node listen.js -l 6 &amp;</code></p>
 </blockquote>
 
 <p>Set an alarm to send an email if dogecoin drops below $0.0007 USD</p>
 
 <blockquote>
-<p><code>$ node listen.js -d 0.0007</code></p>
+<p><code>$ node listen.js -d 0.0007 &amp;</code></p>
 </blockquote>
 
 <h3>
