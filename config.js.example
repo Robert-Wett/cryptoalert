@@ -6,5 +6,6 @@ module.exports = {
   auth: {
     user: 'youremail@gmail.com',
     pass: 'password'
-  }
+  },
+  crypto : ["bitcoin", "litecoin", "dogecoin"]
 };
