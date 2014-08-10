@@ -12,9 +12,9 @@ program
 
 program.on('--help', function() {
   console.log(' Examples:');
-  console.log('   $node listen.js 590 &    #bitcoin');
-  console.log('   $node listen.js -l 590 & #litecoin');
-  console.log('   $node listen.js -d 590 & #dogecoin');
+  console.log('   $ node listen.js 590 &         #bitcoin');
+  console.log('   $ node listen.js -l 15 &       #litecoin');
+  console.log('   $ node listen.js -d 0.00005 &  #dogecoin');
 })
 
 program.parse(process.argv);
