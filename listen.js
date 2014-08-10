@@ -47,7 +47,7 @@ function startFeed(_amount, cc) {
 
 function checkPrice(snap, cc) {
   var currentPriceInUSD = parseFloat(snap.val());
-  console.log(amount, currentPriceInUSD, (amount >= currentPriceInUSD));
+
   if (amount >= currentPriceInUSD)
     sendMailAlert(currentPriceInUSD, cc);
 }
